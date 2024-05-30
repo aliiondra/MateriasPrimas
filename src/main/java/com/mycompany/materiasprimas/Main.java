@@ -25,6 +25,7 @@ public class Main {
         MateriaPrima materiasPrima4 = new MateriaPrima(67, 20, 0.3, 1, 0.5, 2, 5, 0.2, 1);
         System.out.println(materiasPrima4);
 
+
         MateriaPrima materiaPrima8 = new MateriaPrima(2, 0, 0.2, 0, 0, 0, 0, 0, 41);
         System.out.println(materiaPrima8);
     }
