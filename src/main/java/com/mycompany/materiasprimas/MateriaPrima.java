@@ -8,7 +8,7 @@ package com.mycompany.materiasprimas;
  *
  * @author alu11563090
  */
-public class MateriasPrimas {
+public class MateriaPrima {
     
     protected double SiO2;
     protected double AI2O3;
@@ -20,7 +20,7 @@ public class MateriasPrimas {
     protected double TiO2;
     protected double PPC;
 
-    public MateriasPrimas(double SiO2, double AI2O3, double Fe2O3, double CaO, double MgO, double Na2O, double K2O, double TiO2, double PPC) {
+    public MateriaPrima(double SiO2, double AI2O3, double Fe2O3, double CaO, double MgO, double Na2O, double K2O, double TiO2, double PPC) {
         this.SiO2 = SiO2;
         this.AI2O3 = AI2O3;
         this.Fe2O3 = Fe2O3;
@@ -32,9 +32,19 @@ public class MateriasPrimas {
         this.PPC = PPC;
     }
 
-    public boolean esValido() {
-        return false;
+@Override
+    public String toString() {
+        return "MateriaPrima { " +
+                "siO2=" + SiO2 +
+                ", al2O3=" + AI2O3 +
+                ", fe2O3=" + Fe2O3 +
+                ", cao=" + CaO +
+                ", mgo=" + MgO +
+                ", na2O=" + Na2O +
+                ", k2O=" + K2O +
+                ", tio2=" + TiO2 +
+                ", ppc=" + PPC +
+                " }";
     }
-    
     
 }
